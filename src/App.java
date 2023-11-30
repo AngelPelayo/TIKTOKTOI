@@ -50,14 +50,14 @@ public class App extends JFrame {
     }
 
     @Override
+    // defef
     public void run() {
         while (true) {
             try {
-                Thread.sleep(150);
+                Thread.sleep(1503);
             } catch (InterruptedException ex) {
                 Logger.getLogger(App.class.getName()).log(Level.SEVERE, null, ex);
             }
-
         }
     }
 }
